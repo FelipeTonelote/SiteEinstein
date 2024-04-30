@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        .wrapper{
+            margin-left: 15px;
+        }
+
+        img{
+            height: 350px;
+        }
+
+        header {
+            background-color: #F0B564;
+            
+        }
+
+        ul {
+            list-style-type: none;
+
+            color: #F0B564;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #F0B564 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #F0B564;
+            color: white;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            grid-row-end: 6;
+            background-color: #F0B564;
+            color: white;
+            text-align: center;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+               grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+ grid-column-end: 1;
+                
+            }
+
+            .principal {
+                grid-column-start: 1;
+ grid-column-end: 1;
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia Albert Einstein</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="obras.html">Obras</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_einstein">
+            <img src="media/perfil.jpg">
+            <div class="infos">
+                <p><strong>Ocupação:</strong> Físico alemão</p>
+                <p>
+                    <strong>Data do Nascimento:</strong>
+                    14/03/1879
+                </p>
+                <p><strong>Data da Morte:</strong> 18/04/1955 (aos 76 anos)</p>
+            </div>
+        </aside>
+
+        <section class="principal">
+            <h1>
+                Albert Einstein - Curiosidades
+            </h1>
+            
+            <h3>1) Os pais estavam preocupados com as suas capacidades cognitivas</h3>
+            <p>É considerado um dos maiores génios da história, mas, em criança, os seus pais até recearam que tivesse problemas cognitivos. No livro do jornalista Denis Brian, Einstein: a life, sugere-se que os pais de Albert Einstein (Hermann Einstein e Pauline Koch) ficaram alarmados com o tempo que o filho demorou até conseguir falar — não o fez antes dos três anos, como o próprio Einstein contou em 1954.</p>
+            
+            <h3>2) Primeiro artigo científico escrito aos 15 ou 16 anos</h3>
+            <p>Com que idade escreveu Albert Eistein o seu primeiro artigo científico? Com 15 ou 16 anos, ou seja, entre 1894 e 1895, segundo o site Business Insider, que cita a coleção de ensaios “A Era de Ouro da Física Teórica”, organizada pelo historiador científico Jagdish Mehra. Escreveu-o já em Itália, para onde a sua família se mudou em 1894. O seu ensaio, intitulado “Sobre a investigação acerca do estado do éter nos campos magnéticos”, foi enviado ao seu tio materno, Casar Kach, que vivia então em Antuérpia (Bélgica).</p>
+            
+            <h3>3) Excecional a física… não tão bom a matemática</h3>
+            <p>Aos 21 anos, em 1900, Albert Einstein licenciou-se pelo Politécnico de Zurique. Nas cadeiras de física mostrou qualidades excecionais: em 14 das cadeiras que frequentou, teve nota máxima a 5. A matemática, contudo, não era tão bom, relata o Business Insider.</p>
+
+            <h3>4) Depois de se licenciar foi… escriturário</h3>
+            <p>Após ter-se licenciado, Albert Einstein não conseguiu arranjar trabalho enquanto académico. Assim, foi trabalhar como escriturário no município de Berne, na Alemanha. Pouco depois, começaria a trabalhar na sua Teoria da Relatividade — que mudou o mundo como o conhecemos.</p>
+
+            <h3>5) Inspirado pela ficção científica (e por Felix Eberty e Aaron Bernstein)</h3>
+            <p>Enquanto jovem, Albert Einstein foi muito inspirado por livros de ficção científica. Em particular pelo astrónomo amador Felix Eberty e por Aarton Bernstein (sobre este último disse mesmo ter devorado o seu trabalho de forma fervorosa, segundo um artigo da revista norte-americana New Yorker). E socorreu-se mesmo do trabalho de Bernstein para, nas suas sessões públicas de 1916, tentar explicar a sua Teoria da Relatividade.</p>
+
+            <h3> 6) Quando ganhou um Nobel, não foi pela teoria da relatividade</h3>
+            <p>Quando Albert Einstein ganhou o prémio Nobel da Física, em 1921, não foi com a Teoria Geral da Relatividade, mas “pelos seus serviços para a Física Teórica, em especial pela sua descoberta da lei do efeito fotoelétrico”. A New Yorker liga o facto de Einstein não ter ganho um Nobel pela Teoria da Relatividade às críticas feitas por Henri Bergson: diz que as objeções deste último “foram parcialmente responsáveis” por isso.</p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido para fins educacionais</h1>
+    </footer>
+    </div>
+</body>
+
+</html>

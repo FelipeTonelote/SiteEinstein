@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Einstein</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #F0B564;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+
+        .imagem_einstein {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        .wrapper{
+            margin-left: 15px;
+        }
+        
+        img{
+            height: 350px;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #F0B564;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #F0B564 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #F0B564;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .imagem_einstein {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia Albert Einstein</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="obras.html">Obras</a></li>
+            <li><a href="curiosidades.html">Curiosidades</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_einstein">
+            <img src="media/perfil.jpg">
+            <div class="infos">
+                <p><strong>Ocupação:</strong> Físico alemão</p>
+                <p>
+                    <strong>Data do Nascimento:</strong>
+                    14/03/1879
+                </p>
+                <p><strong>Data da Morte:</strong> 18/04/1955 (aos 76 anos)</p>
+            </div>
+        </aside>
+        
+        <section class="principal">
+            <h1>
+                Albert Einstein
+            </h1>
+            <p>Foi um físico teórico alemão, que desenvolveu a teoria da relatividade geral, um dos pilares da física moderna ao lado da mecânica quântica. Embora mais conhecido por sua fórmula de equivalência massa-energia, E = mc² — que foi chamada de "a equação mais famosa do mundo" —, foi laureado com o Prêmio Nobel de Física de 1921 "por suas contribuições à física teórica" e, especialmente, por sua descoberta da lei do efeito fotoelétrico, que foi fundamental no estabelecimento da teoria quântica.</p>
+            <p>Nascido em uma família de judeus alemães, mudou-se para a Suíça ainda jovem e iniciou seus estudos na Escola Politécnica de Zurique. Após dois anos procurando emprego, obteve um cargo no escritório de patentes suíço enquanto ingressava no curso de doutorado da Universidade de Zurique. Em 1905, publicou uma série de artigos acadêmicos revolucionários. Uma de suas obras era o desenvolvimento da teoria da relatividade especial. Percebeu, no entanto, que o princípio da relatividade também poderia ser estendido para campos gravitacionais, e com a sua posterior teoria da gravitação, de 1916, publicou um artigo sobre a teoria da relatividade geral. Enquanto acumulava cargos em universidades e instituições, continuou a lidar com problemas da mecânica estatística e teoria quântica, o que levou às suas explicações sobre a teoria das partículas e o movimento browniano. Também investigou as propriedades térmicas da luz, o que lançou as bases da teoria dos fótons. Em 1917, aplicou a teoria da relatividade geral para modelar a estrutura do universo como um todo. Suas obras renderam-lhe o status de celebridade mundial enquanto tornava-se uma nova figura na história da humanidade, recebendo prêmios internacionais e sendo convidado de chefes de estado e autoridades.</p>
+            <p>Estava nos Estados Unidos quando o Partido Nazista chegou ao poder na Alemanha, em 1933, e não voltou para o seu país de origem, onde tinha sido professor da Academia de Ciências de Berlim. Estabeleceu-se então no país, onde naturalizou-se em 1940. Na véspera da Segunda Guerra Mundial, ajudou a alertar o presidente Franklin Delano Roosevelt que a Alemanha poderia estar desenvolvendo uma arma atômica, recomendando aos norte-americanos a começar uma pesquisa semelhante, o que levou ao que se tornaria o Projeto Manhattan. Apoiou as forças aliadas, denunciando no entanto a utilização da fissão nuclear como uma arma. Mais tarde, com o filósofo britânico Bertrand Russell, assinou o Manifesto Russell-Einstein, que destacou o perigo das armas nucleares. Foi afiliado ao Instituto de Estudos Avançados de Princeton, onde trabalhou até sua morte em 1955.</p>
+            <p>Realizou diversas viagens ao redor do mundo, deu palestras públicas em conceituadas universidades e conheceu personalidades célebres de sua época, tanto na ciência quanto fora do mundo acadêmico. Publicou mais de 300 trabalhos científicos, juntamente com mais de 150 obras não científicas. Suas grandes conquistas intelectuais e originalidade fizeram da palavra "Einstein" sinônimo de gênio. Em 1999, foi eleito por 100 físicos renomados o mais memorável físico de todos os tempos. No mesmo ano, a revista TIME, em uma compilação com as pessoas mais importantes e influentes, classificou-o a pessoa do século XX.</p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido para fins educacionais</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
